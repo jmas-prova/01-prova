@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Hola {
     public static void main(String[] args) {
         System.out.println("Bon dia!!");
-
+        System.out.println(" i tambe bona tarda...");
 
         String[] arr = {"Josep", "David", "Lluis"};
         Arrays.asList(arr).forEach(s -> System.out.println("s = " + s));

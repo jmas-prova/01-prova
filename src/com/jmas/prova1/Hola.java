@@ -7,12 +7,15 @@ public class Hola {
         System.out.println("Bon dia!!");
         System.out.println(" i tambe bona tarda...");
 
+
+
         String[] arr = {"Josep", "David", "Lluis"};
         Arrays.asList(arr).forEach(s -> System.out.println("s = " + s));
 
         int[] num = {1, 2, 3};
 
-
+        Persona persona = new Persona();
+        persona.saluda("Hola neng...");
 
 
 /*

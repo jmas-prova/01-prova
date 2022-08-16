@@ -5,4 +5,7 @@ public class Persona {
     private String cognom;
 
 
+    public void saluda(String s) {
+        System.out.println("s = " + s);
+    }
 }
